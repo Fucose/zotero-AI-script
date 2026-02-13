@@ -2,9 +2,15 @@
 
 Generate paper summaries in Zotero with an OpenAI-compatible LLM API.
 
+For Chinese documentation, see [README_CN.md](README_CN.md).
+
 ## Script File
 
-Use `zotero_script_v3.js`.
+Use `zotero_ai_script.js`.
+
+## Credits
+
+This project is based on [cs-qyzhang/zotero-ai-summary](https://github.com/cs-qyzhang/zotero-ai-summary), adapted into a simplified script workflow for Zotero Actions & Tags.
 
 ## Features
 
@@ -28,11 +34,11 @@ Install [zotero-actions-tags](https://github.com/windingwind/zotero-actions-tags
 - `Menu Label`: `Summarize Paper`
 - `Event`: `None`
 - `Operation`: `Script`
-- `Data`: paste the full content of `zotero_script_v3.js`
+- `Data`: paste the full content of `zotero_ai_script.js`
 
 ### 3. Configure API
 
-Edit the configuration section in `zotero_script_v3.js` and enter your own:
+Edit the configuration section in `zotero_ai_script.js` and enter your own:
 - LLM Base URL
 - Model name
 - API key

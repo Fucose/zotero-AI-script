@@ -4,7 +4,11 @@
 
 ## 脚本文件
 
-使用 `zotero_script_v3.js`。
+使用 `zotero_ai_script.js`。
+
+## 致谢
+
+本项目基于 [cs-qyzhang/zotero-ai-summary](https://github.com/cs-qyzhang/zotero-ai-summary)，并改造为可直接用于 Zotero Actions & Tags 的简化脚本方案。
 
 ## 功能
 
@@ -28,11 +32,11 @@
 - `Menu Label`: `Summarize Paper`
 - `Event`: `None`
 - `Operation`: `Script`
-- `Data`: 粘贴 `zotero_script_v3.js` 全部内容
+- `Data`: 粘贴 `zotero_ai_script.js` 全部内容
 
 ### 3. 配置 API
 
-编辑 `zotero_script_v3.js` 的配置区，填写你自己的：
+编辑 `zotero_ai_script.js` 的配置区，填写你自己的：
 - LLM Base URL
 - Model 名称
 - API Key
